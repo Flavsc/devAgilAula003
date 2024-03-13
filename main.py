@@ -1,7 +1,7 @@
-import adicao
-import subtrac
-import multiplic
-import divid
+import ad
+import sub
+import mult
+import div
 
 run = 1
 
@@ -19,16 +19,16 @@ Digite:
     op = int(input("Opção: "))
     if op == 1:
         print("Resultado:")
-        print(adicao.soma(x, y))
+        print(ad.soma(x, y))
     elif op == 2:
         print("Resultado:")
-        print(subtrac.subtrai(x, y))
+        print(sub.subtrai(x, y))
     elif op == 3:
         print("Resultado:")
-        print(multiplic.multiplica(x, y))
+        print(mult.multiplica(x, y))
     elif op == 4:
         print("Resultado:")
-        print(divid.divide(x, y))
+        print(div.divide(x, y))
     elif op == 5:
         break
     else:
